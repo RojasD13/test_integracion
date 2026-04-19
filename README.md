@@ -95,7 +95,14 @@ Con cobertura:
 
 ```bash
 pytest --cov=src --cov-report=term-missing
+python -m pytest --cov=src --cov-report=term-missing
 ```
+Opción 2 — panel visual de Testing en VS Code
+1. Ctrl+Shift+P → "Python: Configure Tests"
+2. Selecciona "pytest"
+3. Selecciona la carpeta raíz del proyecto
+4. Clic en el ícono de matraz (Testing) en la barra lateral
+5. En todas las pruebas listadas —>  clic en ▶ para correr
 
 ## Ejemplo de uso
 
